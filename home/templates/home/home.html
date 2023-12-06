@@ -4,14 +4,18 @@
 
 {% block content %} 
     <h1>Home</h1>
+    <a href="{% url "create-room" %}">Create Room</a>
     <hr>
     <div>
         <div>
             {% for room in rooms %}
             <div>
-                <h4>
+                <span>@{{room.host.username}}</span>
+                <h5>
                     {{room.id}}--<a href="{% url 'room' room.id %}">{{room.name}}</a>
-                </h4>
+                </h5>
+                <small>{{room.topic.name}}</small>
+                <hr>
             </div>
             {% endfor %}
         </div>
