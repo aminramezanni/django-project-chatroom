@@ -6,7 +6,6 @@ from django.contrib.auth.models import User
 from .models import Room, Topic
 from .forms import RoomForm
 
-
 def login_page(request):
     if request.method == 'POST':
         username = request.POST.get('username')
