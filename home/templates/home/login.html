@@ -1,4 +1,7 @@
 {% extends "main.html" %}
+
+{% block title %} Login Page {% endblock title %}
+
 {% block content %}
 
     <main class="auth layout">
@@ -10,13 +13,13 @@
             </div>
           </div>
           <div class="layout__body">
-            <h2 class="auth__tagline">Find your study partner</h2>
+            <h2 class="auth__tagline">Find your Chat Room or Join one</h2>
 
             <form class="form" action="" method="POST">
               {% csrf_token %}
               <div class="form__group form__group">
-                <label for="room_name">Username</label>
-                <input id="username" name="username" type="text" placeholder="e.g. dennis_ivy" />
+                <label for="room_name">Email</label>
+                <input id="username" name="email" type="text" placeholder="Email" />
               </div>
               <div class="form__group">
                 <label for="password">Password</label>

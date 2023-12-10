@@ -1,5 +1,7 @@
 {% extends "main.html" %}
 
+{% block title %} ChatRoom - Find any room around the world!  {% endblock title %}
+
   {% block content %}
   <main class="layout layout--3">
     <div class="container">
@@ -30,7 +32,7 @@
 
         <div class="roomList__header">
           <div>
-            <h2>Study Room</h2>
+            <h2>Rooms List</h2>
             <p> {{rooms.count}} Rooms available</p>
           </div>
           <a class="btn btn--main" href="{% url "create-room" %}">

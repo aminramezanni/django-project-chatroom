@@ -1,5 +1,7 @@
 {% extends "main.html" %}
 
+{% block title %} My Account {% endblock title %}
+
 {% block content %}
 
   <main class="profile-page layout layout--3">
@@ -13,12 +15,12 @@
         <div class="profile">
           <div class="profile__avatar">
             <div class="avatar avatar--large active">
-              <img src="https://randomuser.me/api/portraits/men/11.jpg" />
+              <img src="{{user.avatar.url}}" />
             </div>
           </div>
           <div class="profile__info">
             <h3> {{user.username}} </h3>
-            <p>@ {{user.username}}</p>
+            
             {% if request.user == user %}
             <a href="{% url "update-user" %}" class="btn btn--main btn--pill">Edit Profile</a>
             {% endif %}
@@ -26,16 +28,14 @@
           <div class="profile__about">
             <h3>About</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo tenetur
-              facilis sunt nemo debitis quisquam hic atque aut? Ducimus alias placeat optio
-              accusamus repudiandae quis ab ex exercitationem rem?
+              {{user.bio}}
             </p>
           </div>
         </div>
 
         <div class="roomList__header">
           <div>
-            <h2>Study Rooms Hosted by dennis_ivy</a>
+            <h2>Chat Rooms Hosted by {{user.username}}</a>
             </h2>
           </div>
         </div>
