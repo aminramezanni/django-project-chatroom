@@ -2,7 +2,7 @@
 
 ChatRoom is a Django-based project that provides a feature-rich chat room application. It includes a api and mobile-responsive design, the ability to create rooms with custom subjects, join existing rooms, view participants in rooms, and a personalized user system.
 
-![ChatRoom Preview]('images/readme.png')
+![ChatRoom Preview]('readme.png')
 
 ## Features
 
