@@ -25,13 +25,13 @@ ChatRoom is a Django-based project that provides a feature-rich chat room applic
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/ChatRoom.git
+    git clone https://github.com/aminramezanni/django-project-chatroom.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd ChatRoom
+    cd django-project-chatroom
     ```
 
 3. Install dependencies:
