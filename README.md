@@ -72,5 +72,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, please contact [Your Name] at [aminramezanni@gmail.com].
+For any inquiries, please contact at [aminramezanni@gmail.com].
 
