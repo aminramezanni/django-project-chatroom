@@ -12,13 +12,6 @@ ChatRoom is a Django-based project that provides a feature-rich chat room applic
 - **Personalized User System:** The project includes a custom user system.
 - **Mobile-Responsive Design:** Ensures a seamless experience across different devices.
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- Django
-- Django Rest Framework
 
 ### Installation
 
@@ -58,13 +51,6 @@ ChatRoom is a Django-based project that provides a feature-rich chat room applic
 
 The API is built using Django Rest Framework. You can find the API documentation in the [API Documentation](/docs/api.md) file.
 
-## Contributing
-
-If you'd like to contribute to this project, please follow the [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
