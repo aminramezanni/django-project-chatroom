@@ -58,5 +58,5 @@ The API is built using Django Rest Framework. You can find the API documentation
 
 ## Contact
 
-For any inquiries, please contact at [aminramezanni@gmail.com].
+For any inquiries, please contact at [Amin Ramezani](aminramezanni@gmail.com).
 
