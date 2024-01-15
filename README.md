@@ -68,7 +68,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Special thanks to [Django](https://www.djangoproject.com/) and [Django Rest Framework](https://www.django-rest-framework.org/) for making this project possible.
+- Special thanks to [Dennis Ivy](https://github.com/divanov11).
 
 ## Contact
 
